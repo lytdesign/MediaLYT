@@ -1,0 +1,13 @@
+{
+  "name": "medialyt",
+  "version": "0.1.0",
+  "private": true,
+  "description": "MediaLYT — LYTDesign AI Media Production Studio (local interface + Media Hub engine)",
+  "type": "module",
+  "engines": { "node": ">=22.13.0" },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning engine/server.mjs",
+    "test": "node --disable-warning=ExperimentalWarning --test tests/engine.test.mjs",
+    "check-host": "bash scripts/check-host.sh"
+  }
+}
